@@ -57,6 +57,17 @@
 		<script src="./builtin-extensions.js"></script>
 		<script type="module" src="./src/main.ts"></script>
 		<style>
+			/* VS Code normally injects these theme variables at runtime. On
+			 * `otools-plugin://` the theme service can fail to apply them,
+			 * leaving Monaco token colors transparent on the dark background.
+			 * Workbench themes override these root fallbacks when available. */
+			:root {
+				--vscode-editor-foreground: #d4d4d4;
+				--vscode-input-foreground: #d4d4d4;
+				--vscode-editor-background: #111417;
+				--vscode-editorGutter-background: #111417;
+				--vscode-editorLineNumber-foreground: #6e7681;
+			}
 			html,
 			body {
 				margin: 0;
