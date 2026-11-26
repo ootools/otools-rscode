@@ -1,0 +1,13 @@
+RSCode Editor (OTools plugin)
+Copyright 2026 xyito
+
+This product is a port of SideX (https://github.com/Sidenai/sidex),
+Copyright 2026 Sidenai, licensed under the MIT License.
+
+SideX is itself a port of Visual Studio Code / Code - OSS
+(https://github.com/microsoft/vscode), Copyright Microsoft Corporation,
+licensed under the MIT License. See LICENSE for the full license text.
+
+The plugin bundles third-party open-source components listed in package.json,
+including Monaco Editor, xterm.js, vscode-textmate and vscode-oniguruma,
+each distributed under its own license.

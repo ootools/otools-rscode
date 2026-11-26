@@ -1,0 +1,12 @@
+{
+  "repo": "Sidenai/sidex",
+  "url": "https://github.com/Sidenai/sidex.git",
+  "subpath": "(frontend + build-script whitelist)",
+  "ref": "main",
+  "commit": "ad978652682270a593e7029269beff5411477a70",
+  "commitDate": "2026-08-26T19:58:10Z",
+  "fetchedAt": "2026-11-26T09:20:00.000Z",
+  "fileCount": 2965,
+  "treeHash": "26ed89a47925afb6caf01eb05d4ed4a750b0cfe73740bcff4a28c463a1e6aafa",
+  "note": "upstream/ 是锁定提交下 SideX 前端白名单路径的原样快照，不要就地修改；移植改动放 shell/。Rust/Go 后端与 CI 配置不进插件仓。"
+}

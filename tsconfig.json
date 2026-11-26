@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable", "WebWorker"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@tauri-apps/api/core": ["./.build/shim/core.ts"],
+      "@tauri-apps/api/event": ["./.build/shim/event.ts"],
+      "@tauri-apps/api/window": ["./.build/shim/window.ts"],
+      "@tauri-apps/plugin-dialog": ["./.build/shim/dialog.ts"],
+      "@tauri-apps/plugin-shell": ["./.build/shim/shell.ts"]
+    },
+    "types": ["node", "vite/client"]
+  },
+  "include": [".build/shim", ".build/tests"]
+}
